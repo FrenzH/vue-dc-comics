@@ -1,7 +1,10 @@
 <template>
   <div>
-    <img src="../assets/img/dc-logo.png" alt="">
-    <navComponent/>
+    <div id="header-container">
+      <img src="../assets/img/dc-logo.png" alt="">
+      <navComponent/>
+    </div>
+   
   </div>
 </template>
 
@@ -16,6 +19,10 @@ components : {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  #header-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
 
 </style>
