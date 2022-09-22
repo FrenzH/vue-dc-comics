@@ -1,6 +1,8 @@
 <template>
   <div>
-    ciaoooo
+    <nav>
+
+    </nav>
 
   </div>
 </template>
@@ -12,6 +14,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+    nav{
+        display: flex;
+    }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    ciaoooo
+    
     <headerComponent/>
     
   </div>

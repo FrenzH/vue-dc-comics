@@ -1,6 +1,6 @@
 <template>
   <div>
-    ciaoooo
+    <img src="../assets/img/dc-logo.png" alt="">
     <navComponent/>
   </div>
 </template>
@@ -16,6 +16,6 @@ components : {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
